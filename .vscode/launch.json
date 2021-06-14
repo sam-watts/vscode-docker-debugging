@@ -18,7 +18,6 @@
                     "remoteRoot": "."
                 }
             ],
-            // "preLaunchTask": "Run docker-compose up"
         }
     ]
 }
