@@ -2,9 +2,8 @@ import numpy as np
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-
-import debugpy
 import logging as log
+import debugpy
 
 debugpy.listen(("0.0.0.0", 5678))
 log.info("Waiting for client to attach...")
