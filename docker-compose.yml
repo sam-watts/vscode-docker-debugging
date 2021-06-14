@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  debugging:
+    build: .
+    ports:
+      - "5678:5678"
