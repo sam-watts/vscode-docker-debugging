@@ -1,11 +1,12 @@
 FROM python:3.8
 
-WORKDIR /data
+WORKDIR /training
 COPY requirements.txt requirements.txt
 RUN python -m pip install -r requirements.txt
 
-COPY main.py main.py
-RUN chmod 0755 main.py
+COPY entrypoint.sh entry.sh
+RUN chmod 0755 entry.sh
+COPY . .
 
-RUN mkdir export
-CMD ["python", "main.py"]
+
+ENTRYPOINT ["./entry.sh"]
