@@ -1,6 +1,6 @@
 # Debugging dockerized python scripts with vscode
 
-A template for debugging long running, containerized programs in python with
+A template for debugging long running, containerized ML applications in python with
 vscode.
 
 ```
