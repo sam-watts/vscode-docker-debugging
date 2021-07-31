@@ -7,7 +7,7 @@ vscode.
 import debugpy
 
 debugpy.listen(("0.0.0.0", 5678))
-log.info("Waiting for client to attach...")
+print("Waiting for client to attach...")
 debugpy.wait_for_client()
 ```
 
