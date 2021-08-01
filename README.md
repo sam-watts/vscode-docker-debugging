@@ -10,8 +10,7 @@ debugpy.listen(("0.0.0.0", 5678))
 print("Waiting for client to attach...")
 debugpy.wait_for_client()
 ```
-
-See medium for a full explanation
+See medium post for a full explanation: [Debugging for Dockerized ML applications in Python](https://towardsdatascience.com/debugging-for-dockerized-ml-applications-in-python-2f7dec30573d)
 
 ## Running
 
