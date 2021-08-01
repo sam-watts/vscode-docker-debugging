@@ -21,7 +21,3 @@ See medium for a full explanation
 2. Run `bash ./run_container.sh` to build the docker image and run the container
 3. Once the container is running, select the `Python: Docker Attach` debugging configuration 
 4. Debug away :heart_eyes:
-
-## Required Setup
-
-- TODO - add stuff
